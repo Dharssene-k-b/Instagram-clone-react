@@ -1,0 +1,130 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "alex_dev",
+        "name": "Alex Johnson",
+        "profileImage": "src/assets/profile.png"
+      },
+      "image": "src/assets/dog1.png",
+      "caption": "Building something new today 🚀",
+      "likes": {
+        "count": 124,
+        "likedByMe": false
+      },
+      "comments": [
+        {
+          "id": 1,
+          "user": {
+            "username": "sarah_codes",
+            "profileImage": "src/assets/profile.png"
+          },
+          "text": "This looks amazing! 🔥"
+        },
+        {
+          "id": 2,
+          "user": {
+            "username": "john_travels",
+            "profileImage": "src/assets/profile.png"
+          },
+          "text": "Great work!"
+        }
+      ],
+      "createdAt": "2 hours ago"
+    },
+
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_codes",
+        "name": "Sarah Williams",
+        "profileImage": "src/assets/profile.png"
+      },
+      "image": "src/assets/dog2.png",
+      "caption": "Coffee + Code ☕💻",
+      "likes": {
+        "count": 256,
+        "likedByMe": true
+      },
+      "comments": [
+        {
+          "id": 3,
+          "user": {
+            "username": "alex_dev",
+            "profileImage": "src/assets/profile.png"
+          },
+          "text": "Perfect combination ☕💻"
+        }
+      ],
+      "createdAt": "4 hours ago"
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "john_travels",
+        "name": "John Smith",
+        "profileImage": "src/assets/profile.png"
+      },
+      "image": "src/assets/dog1.png",
+      "caption": "Beautiful view 🌄",
+      "likes": {
+        "count": 542,
+        "likedByMe": false
+      },
+      "comments": [
+        {
+          "id": 4,
+          "user": {
+            "username": "emily_art",
+            "profileImage": "src/assets/profile.png"
+          },
+          "text": "Wow! 😍"
+        },
+        {
+          "id": 5,
+          "user": {
+            "username": "alex_dev",
+            "profileImage": "src/assets/profile.png"
+          },
+          "text": "Amazing place!"
+        }
+      ],
+      "createdAt": "6 hours ago"
+    }
+  ],
+
+  "stories": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "alex_dev",
+        "profileImage": "src/assets/profile.png"
+      },
+      "image": "src/assets/dog1.png"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_codes",
+        "profileImage": "src/assets/profile.png"
+      },
+      "image": "src/assets/dog1.png"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "john_travels",
+        "profileImage": "src/assets/profile.png"
+      },
+      "image": "https://picsum.photos/id/1015/400/700"
+    }
+  ]
+}
