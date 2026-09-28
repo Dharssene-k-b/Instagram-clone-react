@@ -17,21 +17,21 @@ function Posts() {
         })
     }, []);
   return (
-    (posts.length > 0 ? 
+    posts.length > 0 ? (
         <div className='d-flex flex-column align-items-center'>
             {posts.map(post => (
                 <div key={post.id}>
                     <div className='d-flex'>
                         <img src={post.user.profileImage} alt="" className='dp'/>
-                        <p className='mt-2'>{post.user.username}</p>
+                        <h6 className='mt-2'>{post.user.username}</h6>
                     </div>
                     <div>
                         <img src={post.image} alt="" className='post' />
                     </div>
                     <div className='mt-1'>
-                        <i class="bi bi-heart"></i>
-                        <i class="bi bi-chat"></i>
-                        <i class="bi bi-send"></i>
+                        <i className="bi bi-heart"></i>
+                        <i className="bi bi-chat"></i>
+                        <i className="bi bi-send"></i>
                     </div>
                     <small><b>{post.likes.count} likes</b></small>
                     <p>{post.caption}</p>
@@ -40,11 +40,14 @@ function Posts() {
                 
             ))}
         </div>
+        )
         : 
+        (
         <div>
             Loading
         </div>
-    )  
+        )
+ 
   )
 }
 

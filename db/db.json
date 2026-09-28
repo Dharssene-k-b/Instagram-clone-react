@@ -126,5 +126,80 @@
       },
       "image": "https://picsum.photos/id/1015/400/700"
     }
-  ]
+  ],
+    "suggestions": [
+    {
+      "id": 201,
+      "user": {
+        "id": 201,
+        "username": "mike_photos",
+        "name": "Mike Photography",
+        "profileImage": "src/assets/profile.png"
+      },
+      "followedBy": "alex_dev"
+    },
+    {
+      "id": 202,
+      "user": {
+        "id": 202,  
+        "username": "lisa_travels",
+        "name": "Lisa",
+        "profileImage": "src/assets/profile.png"
+      },
+      "followedBy": "sarah_codes"
+    },
+    {
+      "id": 203,
+      "user": {
+        "id": 203,
+        "username": "david_designs",
+        "name": "David",
+        "profileImage": "src/assets/profile.png"
+      },
+      "followedBy": "john_travels"
+    },
+    {
+      "id": 204,
+      "user": {
+        "id": 204,
+        "username": "emma_creates",
+        "name": "Emma",
+        "profileImage": "src/assets/profile.png"
+      },
+      "followedBy": "alex_dev"
+    },
+    {
+      "id": 205,
+      "user": {
+        "id": 205,
+        "username": "ryan_codes",
+        "name": "Ryan",
+        "profileImage": "src/assets/profile.png"
+      },
+      "followedBy": "sarah_codes"
+    }
+  ],
+    "profile": {
+      "id": 1,
+      "username": "dharssene",
+      "name": "Dharssene",
+      "profileImage": "src/assets/profile.png",
+      "bio": "Computer Science Student | Developer 💻",
+      "postsCount": 12,
+      "followersCount": 450,
+      "followingCount": 280,
+      "posts": [
+        {
+          "id": 101,
+          "image": "src/assets/dog1.png",
+          "caption": "Building something new 🚀"
+        },
+        {
+          "id": 102,
+          "image": "src/assets/dog2.png",
+          "caption": "Weekend vibes ✨"
+        }
+      ]
+    }
 }
+
